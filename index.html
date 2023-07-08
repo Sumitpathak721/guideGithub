@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>StudyMonk</title>
+</head>
+
+<body>
+    <div id="blur-pop-background"></div>    
+    <div id="main">
+        <nav id="navBar">
+            <h1 class="icon">
+                <span id="first">Study</span><span id="second">Monk</span>
+            </h1>
+            <div id="nav-links">
+                <button id="login" onclick="showToggleComponent1('login-component')">Login</button>
+                <button id="signup" onclick="showToggleComponent1('signup-component')">SignUp</button>
+            </div>
+        </nav>
+        <!-- Login and signup component -->
+        <div id="login-component" class="toggle-components">
+            <div class="auth-header">
+                <button class="remove-icon" onclick="hideToggleComponent1('login-component')"><i class="fa fa-remove"></i></button>
+                <h2>Welcome Back</h2>
+            </div>
+            
+            <form id="login-form">
+                <div id="emailField" class="float-container" onclick="showInput(this.id)">
+                    <label for="emailInput">Email</label>
+                    <input type="email" id="emailInput" class="floatInput">
+                </div>
+                <div id="passwordField" class="float-container" onclick="showInput(this.id)">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" id="passwordInput" class="floatInput">
+                </div>
+                <button id="login-btn" class="toggle-component-btn">Login</button>
+            </form>
+            <p id="signup-toggle">
+                Create new Account <button onclick="changeToggleComponent1('login')">Sign up</button>
+            </p>
+        </div>
+        <div id="signup-component" class="toggle-components">
+            <div class="auth-header">
+                <button class="remove-icon" onclick="hideToggleComponent1('signup-component')"><i class="fa fa-remove"></i></button>
+                <h2>Welcome to studyMonk</h2>
+            </div>
+            
+            <form id="singup-form">
+                <div id="nameField" class="float-container" onclick="showInput(this.id)">
+                    <label for="nameInput">Name</label>
+                    <input type="text" id="nameInput" class="floatInput">
+                </div>
+                <div id="emailField" class="float-container" onclick="showInput(this.id)">
+                    <label for="emailInput">Email</label>
+                    <input type="email" id="emailInput" class="floatInput">
+                </div>
+                <div id="passwordField" class="float-container" onclick="showInput(this.id)">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" id="passwordInput" class="floatInput">
+                </div>
+                <button id="login-btn" class="toggle-component-btn">Register</button>
+            </form>
+            <p id="signup-toggle">
+                Already have an account? <button onclick="changeToggleComponent1('signup')">Log in</button>
+            </p>
+        </div>
+        <!-- Descritpion body -->
+        <div id="content-container">
+            <p id="desc">
+                Stand out from others,<br>
+                hire by us
+            </p>
+            <div>
+                <button class="toggleComponent2 active-toggleComponent2" id="key-features-toggle" onclick="showToggleComponent2(this.id)">Key Feature</button>
+                <button class="toggleComponent2" id="search-jobs-toggle" onclick="showToggleComponent2(this.id)">Search Jobs</button>
+            </div>
+            <hr>
+        </div>
+        <div id="key-features">
+            <div class="pair-container">
+                <div class="key-feature" id="kf-1">
+                    <h3>Effective Candidate Relationship Management</h3>
+                    <p>Automated processes such as resume screening, candidate filtering, and interview scheduling help accelerate the hiring process</p>
+                </div>
+                <div class="key-feature" id="kf-2">
+                    <h3>Time Saving</h3>
+                    <p>Our management and connection with multiple industries increases your chances to hire from other</p>
+                </div>
+            </div>
+            <div class="pair-container">
+                <div class="key-feature" id="kf-3">
+                    <h3>Application Tracking System</h3>
+                    <p>This feature helps to manage candidate applications and give live update of application status</p>
+                </div>
+                <div class="key-feature" id="kf-4">
+                    <h3>Free Webinar</h3>
+                    <p>Yes you heard right, we also provide free webinar with industries expert which free for everyone</p>
+                </div>
+            </div>
+        </div>
+        <div id="search-jobs">
+            <div class="filter-container">
+                <select id="location-filter" onchange="changeLocation(this.value)">
+                    <option value="All">All</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Gr Noida">Gr Noida</option>
+                    <option value="Gaziabad">Gaziabad</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Hydrabad">Hydrabad</option>
+                    <option value="Banglore">Banglore</option> 
+                </select>
+                
+                <select id="role-filter" onchange="changeRole(this.value)">
+                    <option value="All">All</option>
+                    <option value="MERN Stack Developer">MERN Stack developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="SDE">SDE</option>
+                    <option value="React Developer">React developer</option>
+                  
+                </select>
+              </div>
+              
+              <div class="job-container" id="job-list" data-location="All" data-role="All"></div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section1">
+                <h1 class="icon">
+                    <span id="first">Study</span><span id="second">Monk</span>
+                </h1> 
+                <p><i>Twitter</i></p>
+                <p><i>Facebook</i></p>
+                <p><i>Youtube</i></p>
+            </div>
+            <div class="footer-section2">
+                <h2>Explore</h2>
+                <p>Aboutus</p>
+                <p>Blogs</p>
+                <p>Webinar</p>
+            </div>
+            <div class="footer-section3">
+                <h2>Search for jobs</h2>
+                <p>Web developer</p>
+                <p>App developer</p>
+                <p>UI designer</p>
+                <p>SDE</p>
+            </div>
+          </footer>
+          <div class="copyright">Copyright@2023 by Sumit Pathak</div>
+    </div>
+</body>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./script.js"></script>
+</html>
