@@ -70,7 +70,7 @@ body{
 .toggle-components{
     width:400px;
     height:fit-content;
-    position:absolute;
+    position:fixed;
     top:100px;
     left:0px;
     right:0px;

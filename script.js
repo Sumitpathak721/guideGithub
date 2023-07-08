@@ -74,7 +74,7 @@ var jobsData = [
         "experience": "3 years"
       },
       {
-        "location": "Gaziabad",
+        "location": "Ghaziabad",
         "role": "SDE",
         "company": "Apple",
         "startDate": "1 Sep 2023",
@@ -130,7 +130,7 @@ var jobsData = [
         "experience": "3 years"
       },
       {
-        "location": "Gaziabad",
+        "location": "Ghaziabad",
         "role": "SDE",
         "company": "Google",
         "startDate": "1 Nov 2023",
@@ -162,7 +162,7 @@ var jobsData = [
         "experience": "4 years"
       },
       {
-        "location": "Gaziabad",
+        "location": "Ghaziabad",
         "role": "Full Stack Developer",
         "company": "Oracle",
         "startDate": "1 Sep 2023",
@@ -218,7 +218,7 @@ var jobsData = [
         "experience": "3 years"
       },
       {
-        "location": "Gaziabad",
+        "location": "Ghaziabad",
         "role": "MERN Stack Developer",
         "company": "Microsoft",
         "startDate": "1 Sep 2023",
