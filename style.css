@@ -259,12 +259,12 @@ body{
     margin-bottom: 10px;
   }
   
-  .job-role {
+  .name {
     font-weight: bold;
     font-size: 18px;
   }
   
-  .company {
+  .job-role {
     font-style: italic;
     margin-top: 5px;
   }

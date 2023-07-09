@@ -49,230 +49,169 @@ $(".floatInput").blur(function() {
 
 // fake data
 var jobsData = [
-      {
-        "location": "Gr Noida",
-        "role": "Android Developer",
-        "company": "Amazon",
-        "startDate": "1 Aug 2023",
-        "ctc": "$15000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Delhi",
-        "role": "MERN Stack Developer",
-        "company": "Google",
-        "startDate": "15 Sep 2023",
-        "ctc": "$18000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Noida",
-        "role": "Full Stack Developer",
-        "company": "Microsoft",
-        "startDate": "10 Jul 2023",
-        "ctc": "$16000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Ghaziabad",
-        "role": "SDE",
-        "company": "Apple",
-        "startDate": "1 Sep 2023",
-        "ctc": "$17000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Goa",
-        "role": "React Developer",
-        "company": "Facebook",
-        "startDate": "20 Aug 2023",
-        "ctc": "$14000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Hydrabad",
-        "role": "MERN Stack Developer",
-        "company": "Netflix",
-        "startDate": "5 Oct 2023",
-        "ctc": "$20000/year",
-        "experience": "5 years"
-      },
-      {
-        "location": "Banglore",
-        "role": "Full Stack Developer",
-        "company": "Adobe",
-        "startDate": "8 Nov 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Gr Noida",
-        "role": "Android Developer",
-        "company": "Microsoft",
-        "startDate": "1 Sep 2023",
-        "ctc": "$18000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Delhi",
-        "role": "MERN Stack Developer",
-        "company": "Apple",
-        "startDate": "15 Oct 2023",
-        "ctc": "$19000/year",
-        "experience": "5 years"
-      },
-      {
-        "location": "Noida",
-        "role": "Full Stack Developer",
-        "company": "Amazon",
-        "startDate": "10 Aug 2023",
-        "ctc": "$17000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Ghaziabad",
-        "role": "SDE",
-        "company": "Google",
-        "startDate": "1 Nov 2023",
-        "ctc": "$20000/year",
-        "experience": "5 years"
-      },
-      {
-        "location": "Gr Noida",
-        "role": "SDE",
-        "company": "Intel",
-        "startDate": "1 Aug 2023",
-        "ctc": "$16000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Delhi",
-        "role": "React Developer",
-        "company": "studyMonk",
-        "startDate": "15 Sep 2023",
-        "ctc": "$17000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Noida",
-        "role": "MERN Stack Developer",
-        "company": "Cisco",
-        "startDate": "10 Jul 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Ghaziabad",
-        "role": "Full Stack Developer",
-        "company": "Oracle",
-        "startDate": "1 Sep 2023",
-        "ctc": "$18000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Goa",
-        "role": "SDE",
-        "company": "Salesforce",
-        "startDate": "20 Aug 2023",
-        "ctc": "$15000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Hydrabad",
-        "role": "React Developer",
-        "company": "Intel",
-        "startDate": "5 Oct 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Banglore",
-        "role": "MERN Stack Developer",
-        "company": "Microsoft",
-        "startDate": "8 Nov 2023",
-        "ctc": "$20000/year",
-        "experience": "5 years"
-      },
-      {
-        "location": "Gr Noida",
-        "role": "Full Stack Developer",
-        "company": "Google",
-        "startDate": "1 Aug 2023",
-        "ctc": "$18000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Delhi",
-        "role": "SDE",
-        "company": "Amazon",
-        "startDate": "15 Sep 2023",
-        "ctc": "$17000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Noida",
-        "role": "React Developer",
-        "company": "Facebook",
-        "startDate": "10 Jul 2023",
-        "ctc": "$16000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Ghaziabad",
-        "role": "MERN Stack Developer",
-        "company": "Microsoft",
-        "startDate": "1 Sep 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Goa",
-        "role": "Full Stack Developer",
-        "company": "Apple",
-        "startDate": "20 Aug 2023",
-        "ctc": "$14000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Hydrabad",
-        "role": "SDE",
-        "company": "Netflix",
-        "startDate": "5 Oct 2023",
-        "ctc": "$20000/year",
-        "experience": "5 years"
-      },
-      {
-        "location": "Banglore",
-        "role": "React Developer",
-        "company": "Adobe",
-        "startDate": "8 Nov 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-      },
-      {
-        "location": "Gr Noida",
-        "role": "MERN Stack Developer",
-        "company": "Intel",
-        "startDate": "1 Aug 2023",
-        "ctc": "$16000/year",
-        "experience": "3 years"
-      },
-      {
-        "location": "Delhi",
-        "role": "Full Stack Developer",
-        "company": "IBM",
-        "startDate": "15 Sep 2023",
-        "ctc": "$17000/year",
-        "experience": "2 years"
-      },
-      {
-        "location": "Noida",
-        "role": "SDE",
-        "company": "Cisco",
-        "startDate": "10 Jul 2023",
-        "ctc": "$19000/year",
-        "experience": "4 years"
-}]
+  {
+    "name": "Sumit Pathak",
+    "role": "MERN Stack Developer",
+    "location": "Delhi",
+    "experience": 3,
+    "estimated_CTC": "$15000/year",
+    "startDate": "10-July-2023"
+  },
+  {
+    "name": "John Smith",
+    "role": "Full Stack Developer",
+    "location": "Noida",
+    "experience": 5,
+    "estimated_CTC": "$20000/year",
+    "startDate": "15-July-2023"
+  },
+  {
+    "name": "Jane Doe",
+    "role": "React Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Michael Johnson",
+    "role": "SDE",
+    "location": "Hyderabad",
+    "experience": 4,
+    "estimated_CTC": "$18000/year",
+    "startDate": "25-July-2023"
+  },
+  {
+    "name": "Alice Brown",
+    "role": "MERN Stack Developer",
+    "location": "remote",
+    "experience": 3,
+    "estimated_CTC": "$16000/year",
+    "startDate": "30-July-2023"
+  },
+  {
+    "name": "David Wilson",
+    "role": "Full Stack Developer",
+    "location": "Goa",
+    "experience": 6,
+    "estimated_CTC": "$22000/year",
+    "startDate": "10-July-2023"
+  },
+  {
+    "name": "Sarah Lee",
+    "role": "React Developer",
+    "location": "Hyderabad",
+    "experience": 1,
+    "estimated_CTC": "$10000/year",
+    "startDate": "15-July-2023"
+  },
+  {
+    "name": "Robert Johnson",
+    "role": "SDE",
+    "location": "remote",
+    "experience": 4,
+    "estimated_CTC": "$19000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Emily Davis",
+    "role": "MERN Stack Developer",
+    "location": "Delhi",
+    "experience": 2,
+    "estimated_CTC": "$14000/year",
+    "startDate": "25-July-2023"
+  },
+  {
+    "name": "Michael Anderson",
+    "role": "Full Stack Developer",
+    "location": "Noida",
+    "experience": 3,
+    "estimated_CTC": "$17000/year",
+    "startDate": "30-July-2023"
+  },
+  {
+    "name": "Sophia Taylor",
+    "role": "React Developer",
+    "location": "Gurgaon",
+    "experience": 4,
+    "estimated_CTC": "$18000/year",
+    "startDate": "10-July-2023"
+  },
+  {
+    "name": "William Thomas",
+    "role": "SDE",
+    "location": "Delhi",
+    "experience": 5,
+    "estimated_CTC": "$20000/year",
+    "startDate": "15-July-2023"
+  },
+  {
+    "name": "Olivia Moore",
+    "role": "MERN Stack Developer",
+    "location": "Noida",
+    "experience": 2,
+    "estimated_CTC": "$14000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "James Clark",
+    "role": "Full Stack Developer",
+    "location": "Gurgaon",
+    "experience": 4,
+    "estimated_CTC": "$18000/year",
+    "startDate": "25-July-2023"
+  },
+  {
+    "name": "Emma Hill",
+    "role": "React Developer",
+    "location": "remote",
+    "experience": 3,
+    "estimated_CTC": "$16000/year",
+    "startDate": "30-July-2023"
+  },
+  {
+    "name": "Alexander Wright",
+    "role": "SDE",
+    "location": "Hyderabad",
+    "experience": 6,
+    "estimated_CTC": "$22000/year",
+    "startDate": "10-July-2023"
+  },
+  {
+    "name": "Ava Lewis",
+    "role": "MERN Stack Developer",
+    "location": "Delhi",
+    "experience": 1,
+    "estimated_CTC": "$10000/year",
+    "startDate": "15-July-2023"
+  },
+  {
+    "name": "Liam Martin",
+    "role": "Full Stack Developer",
+    "location": "remote",
+    "experience": 5,
+    "estimated_CTC": "$20000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Isabella Walker",
+    "role": "React Developer",
+    "location": "Gurgaon",
+    "experience": 2,
+    "estimated_CTC": "$14000/year",
+    "startDate": "25-July-2023"
+  },
+  {
+    "name": "Henry Hall",
+    "role": "SDE",
+    "location": "Bangalore",
+    "experience": 3,
+    "estimated_CTC": "$16000/year",
+    "startDate": "30-July-2023"
+  }
+]
+
+
 
 
 
@@ -285,13 +224,13 @@ function filterJobs(){
         if((jobsData[i].location==location|| location=='All') && (jobsData[i].role==role || role=="All")){
             console.log("got called");
             text+=`<div class="job">
+                  <div class="name">${jobsData[i].name}</div>
                   <div class="job-role">${jobsData[i].role}</div>
-                  <div class="company">${jobsData[i].company}</div>
                   <div class="location">${jobsData[i].location}</div>
                   <div class="details">
                     <div class="start-date">Start Date: ${jobsData[i].startDate}</div>
-                    <div class="ctc">CTC: ${jobsData[i].ctc}</div>
-                    <div class="experience">Experience: ${jobsData[i].experience}</div>
+                    <div class="ctc">Estimated Salary: ${jobsData[i].estimated_CTC}</div>
+                    <div class="experience">Experience: ${jobsData[i].experience} year</div>
                   </div>
             </div>`
         }
