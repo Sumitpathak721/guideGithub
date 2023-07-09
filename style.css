@@ -196,7 +196,7 @@ body{
 }
 /* Key feature styling begins */
 #key-features{
-    display:none;
+    display:flex;
     flex-direction: column;
 }
 .key-feature{
@@ -232,7 +232,7 @@ body{
 /* Key feature ends */
 /* search-jobs begins */
 #search-jobs{
-    display:flex;
+    display:none;
     flex-direction: column;
 }
 .filter-container {

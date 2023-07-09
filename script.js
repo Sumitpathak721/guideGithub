@@ -6,8 +6,6 @@ function showToggleComponent1(component){
     $("#"+component).css("display","block");
     $("#blur-pop-background").css("display","block");
 }
-$("#login-component").css("display","block");
-$("#blur-pop-background").css("display","block");
 function hideToggleComponent1(component){
     $("#"+component).css("display","none");
     $("#blur-pop-background").css("display","none");
