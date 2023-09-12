@@ -1,4 +1,4 @@
-# Welcome to the GitHub Guide for 2nd-Year Students
+# Welcome to the GitHub Guide for NIET Students
 
 
 ![GDSC](https://github.com/Sumitpathak721/guideGithub/assets/98797074/7602711d-1061-4139-9fab-ebd69dfed7d5)
