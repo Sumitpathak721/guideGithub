@@ -232,6 +232,30 @@ var jobsData = [
     "experience": 5,
     "estimated_CTC": "$1700/year",
     "startDate": "16-July-2023"
+  },
+  {
+    "name": "Sahil",
+    "role": "SDE 3",
+    "location": "London",
+    "experience": 2,
+    "estimated_CTC": "$200k/year",
+    "startDate" : "12-April-2027"
+  },
+  {
+    "name": "Sam",
+    "role": "SDE 2",
+    "location": "London",
+    "experience": 1,
+    "estimated_CTC": "$110k/year",
+    "startDate" : "12-March-2027"
+  },
+  {
+    "name": "Uday",
+    "role": "SDE 3",
+    "location": "New York",
+    "experience": 1,
+    "estimated_CTC": "$160k/year",
+    "startDate" : "12-July-2027"
   }
 ]
 
