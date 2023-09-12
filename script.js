@@ -65,6 +65,47 @@ var jobsData = [
     "estimated_CTC": "$20000/year",
     "startDate": "15-July-2023"
   },
+  // Dummy Candidates details have been added. :)
+  {
+    "name": "Camila Cabello",
+    "role": "React Developer",
+    "location": "Bangalore",
+    "experience": 3,
+    "estimated_CTC": "$22000/year",
+    "startDate": "21-August-2023"
+  },
+  {
+    "name": "Shawn Mendes",
+    "role": "Backend Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Charlie Puth",
+    "role": "FrontEnd Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Taylor Swift",
+    "role": "Full Stack Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Ananya Singh",
+    "role": "Data Analyst",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$20000/year",
+    "startDate": "20-July-2023"
+  },
   {
     "name": "Jane Doe",
     "role": "React Developer",
@@ -208,6 +249,54 @@ var jobsData = [
     "experience": 3,
     "estimated_CTC": "$16000/year",
     "startDate": "30-July-2023"
+  },
+  {
+    "name": "Sajesh",
+    "role": "SDE 1",
+    "location": "Coimbatore",
+    "experience": 5,
+    "estimated_CTC": "$1670/year",
+    "startDate": "31-July-2023"
+  },
+  {
+    "name": "mohan",
+    "role": "SDE 5",
+    "location": "chennai",
+    "experience": 6,
+    "estimated_CTC": "$1670/year",
+    "startDate": "17-July-2023"
+  },
+  {
+    "name": "mahan",
+    "role": "SDE 6",
+    "location": "Delhi",
+    "experience": 5,
+    "estimated_CTC": "$1700/year",
+    "startDate": "16-July-2023"
+  },
+  {
+    "name": "Sahil",
+    "role": "SDE 3",
+    "location": "London",
+    "experience": 2,
+    "estimated_CTC": "$200k/year",
+    "startDate" : "12-April-2027"
+  },
+  {
+    "name": "Sam",
+    "role": "SDE 2",
+    "location": "London",
+    "experience": 1,
+    "estimated_CTC": "$110k/year",
+    "startDate" : "12-March-2027"
+  },
+  {
+    "name": "Uday",
+    "role": "SDE 3",
+    "location": "New York",
+    "experience": 1,
+    "estimated_CTC": "$160k/year",
+    "startDate" : "12-July-2027"
   }
 ]
 
