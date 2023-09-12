@@ -62,8 +62,8 @@ After installing Git, you'll need to configure it with your GitHub credentials. 
 
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
+git config --global user.name "Devansh Prakash"
+git config --global user.email "devanshprakash02.com"
 ```
     
 
