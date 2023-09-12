@@ -333,3 +333,9 @@ footer div{
         width:80%;
     }
 }
+button#login:hover{
+    box-shadow: 2px 2px 2px 2px #f0f8ff;;
+}
+button#signup:hover {
+    box-shadow: 2px 2px 2px 2px #f0f8ff;;
+}
