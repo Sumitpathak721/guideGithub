@@ -65,7 +65,11 @@ After installing Git, you'll need to configure it with your GitHub credentials. 
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
-    
+
+### Choosing a Code Editor
+
+Choose a code editor of your choice so that you can start contributing to Open Source. 
+Example of some Code Editors are Microsoft Visual Studio Code, Sublime text, Vim, IntelliJ IDEA etc.    
 
 <div align="center">
     <h3>Happy coding 🙂</h3>
