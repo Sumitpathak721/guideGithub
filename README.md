@@ -48,7 +48,7 @@ GitHub is a web-based platform for version control, collaboration, and code shar
 
 ## Getting Started
 
-### Creating a GitHub Account
+Changing Some terms
 
 If you don't already have a GitHub account, you can create one for free. Visit [GitHub's Signup Page](https://github.com/join) and follow the instructions.
 
