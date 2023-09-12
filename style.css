@@ -333,14 +333,15 @@ footer div{
         width:80%;
     }
 }
+
 button#login:hover{
     background-color: rgb(13, 235, 201);
     color: white; 
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-button#signup:hover {
-    background-color: rgb(13, 235, 201);
-    color: white; 
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
 
+#signup:hover {
+    background-color: royalblue;
+       color: white; 
+       transition: background-color 0.3s ease, color 0.3s ease; 
+}
