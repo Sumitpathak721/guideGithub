@@ -46,17 +46,17 @@ This repository is designed to help you, 2nd-year students, get started with Git
 
 GitHub is a web-based platform for version control, collaboration, and code sharing. It allows developers to work on projects together, track changes, and manage code efficiently. GitHub is widely used in the software development industry for both open-source and private projects.
 
-## Getting Started
+## Getting Started :P
 
-### Creating a GitHub Account
+### Creating a GitHub Account :O
 
 If you don't already have a GitHub account, you can create one for free. Visit [GitHub's Signup Page](https://github.com/join) and follow the instructions.
 
-### Installing Git
+### Installing Git :D
 
 Git is a distributed version control system that works seamlessly with GitHub. You can download and install Git by following the instructions for your specific operating system: [Git Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-### Configuring Git
+### Configuring Git :3
 
 After installing Git, you'll need to configure it with your GitHub credentials. Run the following commands in your terminal:
 
