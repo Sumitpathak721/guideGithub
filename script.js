@@ -210,6 +210,30 @@ var jobsData = [
     "startDate": "30-July-2023"
   },
   {
+    "name": "Sajesh",
+    "role": "SDE 1",
+    "location": "Coimbatore",
+    "experience": 5,
+    "estimated_CTC": "$1670/year",
+    "startDate": "31-July-2023"
+  },
+  {
+    "name": "mohan",
+    "role": "SDE 5",
+    "location": "chennai",
+    "experience": 6,
+    "estimated_CTC": "$1670/year",
+    "startDate": "17-July-2023"
+  },
+  {
+    "name": "mahan",
+    "role": "SDE 6",
+    "location": "Delhi",
+    "experience": 5,
+    "estimated_CTC": "$1700/year",
+    "startDate": "16-July-2023"
+  },
+  {
     "name": "Sahil",
     "role": "SDE 3",
     "location": "London",
