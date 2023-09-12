@@ -212,9 +212,6 @@ var jobsData = [
 ]
 
 
-
-
-
 function filterJobs(){
     var container = $("#job-list")
     var role = container.attr('data-role');

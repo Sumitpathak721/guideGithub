@@ -5,7 +5,7 @@ body{
 #blur-pop-background{
     width:100%;
     height:100%;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     position: fixed;
     z-index: 1;
     display:none;
@@ -54,15 +54,6 @@ body{
     margin:10px auto;
     color:black;
 }
-#login:hover{
-    border:2px solid black;
-    transition-duration: 0.3s;
-}
-#signup:hover{
-    transition-duration: 0.3s;
-    background-color: black;
-    color:white;
-}
 /* Navlinks  styling End*/
 
 
@@ -97,10 +88,6 @@ body{
     background-color:rgb(173, 173, 173);
     padding:10px;
     border-radius: 70%;
-} 
-.remove-icon:hover{
-    transition-duration: 0.3s;
-    background-color: black;
 }
 .float-container{
     background-color: transparent;
@@ -179,10 +166,6 @@ body{
 .toggleComponent2:hover{
     transition-duration: 0.3s;
     background-color: black;
-    color:white;
-}
-.active-toggleComponent2{
-    background-color:black;
     color:white;
 }
 #content-container hr{
