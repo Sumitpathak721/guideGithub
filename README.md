@@ -65,8 +65,6 @@ After installing Git, you'll need to configure it with your GitHub credentials. 
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
-
-### Contributer Name:
     
 
 <div align="center">
