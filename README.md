@@ -65,7 +65,18 @@ After installing Git, you'll need to configure it with your GitHub credentials. 
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
 ```
-    
+### Create your first GitHub Repository
+
+- Come to Dashboard on github.com
+- Click on New Button to Create new Repository.
+[](/Dashboard.PNG)
+
+- Choose a Name for your repository and click on add a Readme file.
+[](/repo%20name.PNG)
+
+- Scroll down and click on create repository.
+- Your first repository is Created !!
+[](/finalprevie.PNG)
 
 <div align="center">
     <h3>Happy coding 🙂</h3>
