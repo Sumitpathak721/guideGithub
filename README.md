@@ -69,7 +69,16 @@ git config --global user.email "youremail@example.com"
 ### Choosing a Code Editor
 
 Choose a code editor of your choice so that you can start contributing to Open Source. 
-Example of some Code Editors are Microsoft Visual Studio Code, Sublime text, Vim, IntelliJ IDEA etc.    
+Example of some Code Editors are Microsoft Visual Studio Code, Sublime text, Vim, IntelliJ IDEA etc.
+
+### Create your first GitHub Repository
+
+- Come to Dashboard on github.com
+- Click on New Button to Create new Repository.
+- Choose a Name for your repository and click on add a Readme file.
+- Scroll down and click on create repository.
+- Your first repository is Created !!
+
 
 <div align="center">
     <h3>Happy coding 🙂</h3>
