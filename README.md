@@ -1,7 +1,8 @@
 # Welcome to the GitHub Guide for 2nd-Year Students
 
 
-![GDSC](https://github.com/Sumitpathak721/PatternProgram/assets/98797074/c3b2a8c8-8083-411e-a826-f80908dad67f)
+![GDSC](https://github.com/Sumitpathak721/guideGithub/assets/98797074/7602711d-1061-4139-9fab-ebd69dfed7d5)
+
 
 
 This repository is designed to help you, 2nd-year students, get started with GitHub, a powerful platform for version control and collaborative coding. Whether you're new to programming or just starting your journey, this guide will assist you in understanding and using GitHub effectively.
