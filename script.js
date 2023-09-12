@@ -65,6 +65,47 @@ var jobsData = [
     "estimated_CTC": "$20000/year",
     "startDate": "15-July-2023"
   },
+  // Dummy Candidates details have been added. :)
+  {
+    "name": "Camila Cabello",
+    "role": "React Developer",
+    "location": "Bangalore",
+    "experience": 3,
+    "estimated_CTC": "$22000/year",
+    "startDate": "21-August-2023"
+  },
+  {
+    "name": "Shawn Mendes",
+    "role": "Backend Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Charlie Puth",
+    "role": "FrontEnd Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Taylor Swift",
+    "role": "Full Stack Developer",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$12000/year",
+    "startDate": "20-July-2023"
+  },
+  {
+    "name": "Ananya Singh",
+    "role": "Data Analyst",
+    "location": "Bangalore",
+    "experience": 2,
+    "estimated_CTC": "$20000/year",
+    "startDate": "20-July-2023"
+  },
   {
     "name": "Jane Doe",
     "role": "React Developer",
