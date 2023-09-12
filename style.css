@@ -134,7 +134,8 @@ body{
 #signup-toggle button{
     border:0px;
     color:blue;
-    background-color: transparent;
+    background-color: transparent;    
+    transform: scale(0.85);
 }
 #signup-toggle button:hover{
     text-decoration: underline;
@@ -213,7 +214,7 @@ body{
 }
 .key-feature:hover{
     transition-duration: 0.4s;
-    background-color: rgba(54, 54, 54, 0.423);
+    background-color: transparent(54, 54, 54, 0.423);
 }
 /* Key feature ends */
 /* search-jobs begins */
@@ -225,6 +226,8 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    font-family: "Arial";
+    font-weight: lighter;
   }
   
   .filter-container select {
