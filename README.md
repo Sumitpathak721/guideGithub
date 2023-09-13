@@ -14,13 +14,14 @@ This repository is designed to help you, 2nd-year students, get started with Git
    - [Creating a GitHub Account](#creating-a-github-account)
    - [Installing Git](#installing-git)
    - [Configuring Git](#configuring-git)
+   - [Choosing a Code Editor](#choosing-a-code-editor)
 3. [Basic GitHub Concepts](#basic-github-concepts)
    - [Repositories](#repositories)
    - [Commits](#commits)
    - [Branches](#branches)
    - [Pull Requests](#pull-requests)
 4. [Using GitHub](#using-github)
-   - [Creating Your First Repository](#creating-your-first-repository)
+   - [Creating Your First Repository](#create-your-first-github-repository)
    - [Cloning a Repository](#cloning-a-repository)
    - [Making Changes](#making-changes)
    - [Committing Changes](#committing-changes)
@@ -70,6 +71,35 @@ git config --global user.email "devanshprakash02.com"
 
 Choose a code editor of your choice so that you can start contributing to Open Source. 
 Example of some Code Editors are Microsoft Visual Studio Code, Sublime text, Vim, IntelliJ IDEA etc.
+
+- *Microsoft Visual Studio Code* - Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. Users can change the theme, keyboard shortcuts, preferences, and install extensions that add functionality.
+
+- *Sublime text* - Sublime Text is a shareware text and source code editor available for Windows, macOS, and Linux. It natively supports many programming languages and markup languages. Users can customize it with themes and expand its functionality with plugins, typically community-built and maintained under free-software licenses. The editor utilizes minimal interface and contains features for programmers including configurable syntax highlighting, code folding, search-and-replace supporting regular-expressions, terminal output window, and more.
+
+- *Vim* - Vim is a free and open-source, screen-based text editor program. It is an improved clone of Bill Joy's vi. Vim's author, Bram Moolenaar, derived Vim from a port of the Stevie editor for Amiga and released a version to the public in 1991. Vim is designed for use both from a command-line interface and as a standalone application in a graphical user interface.
+
+- *IntelliJ IDEA* - IntelliJ IDEA is an integrated development environment written in Java for developing computer software written in Java, Kotlin, Groovy, and other JVM-based languages. It is developed by JetBrains and is available as an Apache 2 Licensed community edition, and in a proprietary commercial edition.
+
+## Basic GitHub Concepts
+
+### Repositories
+
+A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository. GitHub repositories are essential for developers. They provide a platform to store and manage code, share projects with other people, collaborate on coding projects and much more. [Learn more](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
+
+### Commits
+
+Similar to saving a file that's been edited, a commit records changes to one or more files in your branch. You can save small groups of meaningful changes as commits. When you make a commit, you must include a commit message that briefly describes the changes. [Learn more](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)
+
+### Branches
+
+Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
+You always create a branch from an existing branch. Typically, you might create a new branch from the default branch of your repository. You can then work on this new branch in isolation from changes that other people are making to the repository. A branch you create to build a feature is commonly referred to as a feature branch or topic branch. [Learn more](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+
+### Pull Requests
+
+Pull requests lets you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch. After initializing a pull request, you'll see a review page that shows a high-level overview of the changes between your branch (the compare branch) and the repository's base branch. Other contributors can review your proposed changes, add review comments, contribute to the pull request discussion, and even add commits to the pull request. By default, in public repositories, any user can submit reviews that approve or request changes to a pull request. After the author's of the repository are happy with the proposed changes, they can merge the pull request. [Learn more](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+
+## Using GitHub
 
 ### Create your first GitHub Repository
 
