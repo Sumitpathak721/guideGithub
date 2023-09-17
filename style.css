@@ -91,7 +91,13 @@ body{
     background-color:rgb(173, 173, 173);
     padding:10px;
     border-radius: 70%;
+    transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out, width 0.3s ease-in-out;
 }
+
+.remove-icon:hover{
+    background-color: #ff3300;   
+}
+
 .float-container{
     background-color: transparent;
     display:flex;
