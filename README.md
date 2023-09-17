@@ -111,7 +111,5 @@ Pull requests lets you tell others about changes you've pushed to a branch in a 
 
 
 <div align="center">
-    <h3>Happy coding 🙂</h3>
+    <h3>Contributed by Rahul Sharma 🙂</h3>0
 </div>
-
-Contributed by Sumit Pathak 🙂
